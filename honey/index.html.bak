@@ -1,0 +1,15 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+<script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+<title>Honey</title>
+</head>
+<body>
+<div class="honey"></div>
+<style>
+	.honey{background:url('img/honey.jpg') no-repeat 50% 0%; background-size:cover; width: 1000px; height: 3294px; margin:100px auto 0;}
+</style>
+</body>
+</html>
