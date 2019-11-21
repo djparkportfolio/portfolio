@@ -1,0 +1,12 @@
+@font-face {
+    font-family: '12LotteMartDreamBold';
+    src: url('12LotteMartDreamBold.eot');
+    src: url('12LotteMartDreamBold.eot?#iefix') format('embedded-opentype'),
+        url('12LotteMartDreamBold.woff2') format('woff2'),
+        url('12LotteMartDreamBold.woff') format('woff'),
+        url('12LotteMartDreamBold.ttf') format('truetype'),
+        url('12LotteMartDreamBold.svg#12LotteMartDreamBold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
+

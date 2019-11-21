@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'Nikolas & Pine';
+    src: url('NikolasPine.eot');
+    src: url('NikolasPine.eot?#iefix') format('embedded-opentype'),
+        url('NikolasPine.woff2') format('woff2'),
+        url('NikolasPine.woff') format('woff'),
+        url('NikolasPine.ttf') format('truetype'),
+        url('NikolasPine.svg#Nikolas&Pine') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+

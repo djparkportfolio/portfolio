@@ -1,0 +1,12 @@
+@font-face {
+    font-family: '12LotteMartDreamMedium';
+    src: url('12LotteMartDreamMedium.eot');
+    src: url('12LotteMartDreamMedium.eot?#iefix') format('embedded-opentype'),
+        url('12LotteMartDreamMedium.woff2') format('woff2'),
+        url('12LotteMartDreamMedium.woff') format('woff'),
+        url('12LotteMartDreamMedium.ttf') format('truetype'),
+        url('12LotteMartDreamMedium.svg#12LotteMartDreamMedium') format('svg');
+    font-weight: 500;
+    font-style: normal;
+}
+

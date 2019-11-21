@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'Helvetica-CondensedBold';
+    src: url('HelveticaCondensedBold.eot');
+    src: url('HelveticaCondensedBold.eot?#iefix') format('embedded-opentype'),
+        url('HelveticaCondensedBold.woff2') format('woff2'),
+        url('HelveticaCondensedBold.woff') format('woff'),
+        url('HelveticaCondensedBold.ttf') format('truetype'),
+        url('HelveticaCondensedBold.svg#HelveticaCondensedBold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
+
