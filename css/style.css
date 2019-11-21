@@ -114,7 +114,7 @@ span{font-family: '12LotteMartDreamBold'; font-size:210px; line-height:1; }
 
 
 /*resume*/
-.resume{width: 70vw; min-height:100vh; padding:0 100px; position: absolute; background:#444; right:-70vw; color:white;}
+.resume{width: 70vw; min-height:100vh; padding:0 100px; position: absolute; background:#444; right:70vw; color:white;}
 .resume.move_resume{right:0; z-index:1; }
 .resume .close_btn{position: absolute; top:50px; right:50px; font-size:30px; cursor: pointer;}
 
