@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+<link rel="stylesheet" href="slick/slick.css">
+<script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+<script src="slick/slick.min.js"></script>
+<script src="script.js"></script>
+<title>Audi</title>
+</head>
+<body>
+<div class="intro">
+	<p class="intro_lg">Architectural design experienced</p>
+	<p class="intro_md">Audi - Queens Project</p>
+	<div class="icon">
+		<div class="ps"></div>
+		<div class="ai"></div>
+		<div class="id"></div>
+		<div class="rhino"></div>
+		<div class="key"></div>
+		<div class="cad"></div>
+	</div>	
+	<p class="intro_sm">This is one of the proposal package I designed from KPA STUDIO. KPA STUDIO is an architectural facade technology company which provides high quality design, engineering, fabrication, and installation service mainly with glasses or/and metal. As an assistant project manager, I manage various projects; review each architectural schematic drawings to examine the proper material and estimating price for client's design intent. Developing prototype for customized windows or curtain wall frame was one of daily duty as well as communicating with clients, engineers, and subcontractors.</p>
+	<p class="intro_sm">This is one of work sample from KPA Studio that I designed: Audi Queens Plaza.</p>
+</div>
+<ul class="audi_slide">
+	<li class="slide1 slides"><div class="dark"></div></li>
+	<li class="slide2 slides"><div class="dark"></div></li>
+	<li class="slide3 slides"><div class="dark"></div></li>
+	<li class="slide4 slides"><div class="dark"></div></li>
+	<li class="slide5 slides"><div class="dark"></div></li>
+	<li class="slide6 slides"><div class="dark"></div></li>
+	<li class="slide7 slides"><div class="dark"></div></li>
+	<li class="slide8 slides"><div class="dark"></div></li>
+	<li class="slide9 slides"><div class="dark"></div></li>
+	<li class="slide10 slides"><div class="dark"></div></li>
+	<li class="slide11 slides"><div class="dark"></div></li>
+</ul>
+
+<style>
+	p{margin: 0; padding: 0;}
+	@font-face {
+    font-family: '12LotteMartDreamMedium';
+    src: url('../fonts/12LotteMartDreamMedium.eot');
+    src: url('../fonts/12LotteMartDreamMedium.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/12LotteMartDreamMedium.woff2') format('woff2'),
+        url('../fonts/12LotteMartDreamMedium.woff') format('woff'),
+        url('../fonts/12LotteMartDreamMedium.ttf') format('truetype'),
+        url('../fonts/12LotteMartDreamMedium.svg#12LotteMartDreamMedium') format('svg');
+    font-weight: 500;
+    font-style: normal;
+}
+	.intro{margin-top:7%; padding: 0 10%; font-family: '12LotteMartDreamMedium';}
+	.intro_lg{font-size:46px;}
+	.intro_md{font-size:35px; margin:50px 0 20px;}
+	.intro_sm{font-size:20px; line-height:1.3;}
+	.icon{margin:20px 0 50px; }
+	.icon>div{width: 30px; height: 30px; margin:0 10px;  display:inline-block; vertical-align:top;  background-size:contain; background-repeat: no-repeat; background-position:50% 50%;}
+	.ps{background-image:url("../img/ps.png"); margin-left:0 ! important;}
+	.ai{background-image:url("../img/ai.png");}
+	.id{background-image:url("../img/id.png");}
+	.rhino{background-image:url("../img/rhino.png");}
+	.key{background-image:url("../img/key.png");}
+	.cad{background-image:url("../img/cad.png");}
+	.intro>p:last-child{margin: 20px 0;}
+
+
+	.audi_slide{height: 792px; padding: 0 10%; margin: 0; margin:100px 0;}
+	.slides{height: 792px; background-size:cover; background-repeat:no-repeat; background-position:50% 0%;}
+	.slides>.dark{width: 100%; height: 100%; background:rgba(0,0,0,0.5); transition:background 0.5s;}
+	.slick-center .dark{background:rgba(0,0,0,0);}
+	.slide1{background-image:url("audi_1.jpg");}
+	.slide2{background-image:url("audi_2.jpg");}
+	.slide3{background-image:url("audi_3.jpg");}
+	.slide4{background-image:url("audi_4.jpg");}
+	.slide5{background-image:url("audi_5.jpg");}
+	.slide6{background-image:url("audi_6.jpg");}
+	.slide7{background-image:url("audi_7.jpg");}
+	.slide8{background-image:url("audi_8.jpg");}
+	.slide9{background-image:url("audi_9.jpg");}
+	.slide10{background-image:url("audi_10.jpg");}
+	.slide11{background-image:url("audi_11.jpg");}
+	.slick-list{padding:0 30% ! important;}
+	button{border:none; background:none; }
+	.slick-prev, .slick-next{cursor: pointer;position:absolute; transform:translate(0, -50%); top:50%; font-size:30px; z-index:99; color:white;}
+	.slick-prev{left:12%;}
+	.slick-next{right:12%;}
+
+	@media(max-width: 1600px) {
+	.audi_slide, .slides{height:700px;}
+	.slick-list{padding:0 28% ! important;}
+	}
+
+</style>
+</body>
+</html>
+
