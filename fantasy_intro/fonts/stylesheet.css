@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'YDIYGO360';
+    src: url('YDIYGO360.eot');
+    src: url('YDIYGO360.eot?#iefix') format('embedded-opentype'),
+        url('YDIYGO360.woff2') format('woff2'),
+        url('YDIYGO360.woff') format('woff'),
+        url('YDIYGO360.ttf') format('truetype'),
+        url('YDIYGO360.svg#YDIYGO360') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
