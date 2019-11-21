@@ -1,0 +1,152 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+<link rel="stylesheet" href="slick/slick.css">
+<link rel="stylesheet" href="css/style.css">
+<script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="slick/slick.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.8.0/Chart.min.js"></script>
+	<script src="js/utils.js"></script>
+<script src="js/script.js"></script>
+<title>Fatasy intro</title>
+</head>
+<body>
+<a class="skip" href="http://dajeongpark.dothome.co.kr/Fantasy/main_page.html" target="_blank">Skip</a>
+<section class="section1">
+	<div class="sec1_bg"></div>
+	<p class="title">What is your Fantasy?</p>
+	<div class="phone"></div>
+</section>
+<section class="section2">
+	<div class="sec2_txt">
+		<p class="subtitle">Global Intimate Wear Market is expected</p>
+		<p class="subtitle">to reach $325.36 billion by 2025.</p>
+	</div>
+	<div class="sec2_bg"></div>
+	<div class="sec2_img"></div>
+	<p>&#169; Allied Market Research</p>
+</section>
+<section class="section3">
+	<div class="fake_line fake3"></div>
+	<div class="sec3_txt">
+		<p class="subtitle">Intimate wear market share<a href="https://www.retaildive.com/news/top-5-womens-underwear-brands-losing-market-share/555374/" target="_blank"></a></p>
+		<p class="subtitle">L brand&#39;	s market share droped to 24%, when online brands&#39;	 increaded from 36%</p>
+		<p class="subtitle">- US market share 2018</p>
+	</div>
+	<div class="stick_chart">
+		<div class="stick">
+			<div class="per_bx">
+				<div class="per_bar_frame" ><!--바람이 되는 외곽을 담당하는 역할-->
+					<div class="per_bar d_01">
+						<span class="cur_per">32%</span>
+					</div>
+				</div>
+				<span class="per_title subtitle">L brand</span>
+			</div>
+			<div class="per_bx">
+				<div class="per_bar_frame"><!--바람이 되는 외곽을 담당하는 역할-->
+					<div class="per_bar d_02">
+						<span class="cur_per">28%</span>
+					</div>
+				</div>
+				<span class="per_title subtitle">Online brands</span>
+			</div>
+		</div>
+	</div>
+	<div class="circle_chart">
+		<div class="circle">
+			<div id="canvas-holder" style="width:100%">
+		<canvas id="chart-area"></canvas>
+	</div>
+		</div>
+	</div>
+</section>
+<section class="section4">
+	<p class="subtitle">why customers shop Intimate wear Online?</p>
+	<div>
+		<ul class="slide_frame">
+			<li class="slide slide_1"></li>
+			<li class="slide slide_2"><p>Variety</p></li>
+			<li class="slide slide_3"></li>
+			<li class="slide slide_4"><p>Access</p></li>
+			<li class="slide slide_5"></li>
+			<li class="slide slide_6"></li>
+			<li class="slide slide_7"><p>Smart pay</p></li>
+			<li class="slide slide_8"></li>
+			<li class="slide slide_9"><p>Trendy</p></li>
+		</ul>
+	</div>
+</section>
+<section class="section5">
+	<div class="fake_line fake5"></div>
+	<div class="pc"></div>
+	<div class="tablet"></div>
+	<div class="phone"></div>
+</section>
+<section class="section6">
+	<div class="fake_line fake6"></div>
+	<p class="subtitle">Responsive from PC to mobile</p>
+	<div class="responsive"></div>
+</section>
+<section class="section7">
+	<div class="fake_line fake7"></div>
+	<p class="subtitle">so tell me,</p>
+	<a class="title" href="http://dajeongpark.dothome.co.kr/Fantasy/main_page.html" target="_blank">what is your Fantasy?</a>
+	<div class="stroke">
+		<div class="dark"></div>
+	</div>
+</section>
+
+	<script>
+		var randomScalingFactor = function() {
+			return Math.round(Math.random() * 100);
+		};
+
+		var config = {
+			type: 'doughnut',
+			data: {
+				datasets: [{
+					data: [
+						24,
+						12.7,
+						36.2,
+						27.1
+					],
+					backgroundColor: [
+						window.chartColors.red,
+						window.chartColors.orange,
+						window.chartColors.yellow,
+						window.chartColors.green,
+					],
+					label: 'Dataset 1'
+				}],
+				labels: [
+					'Victoria Secret',
+					'Sport brands',
+					'Online brands',
+					'others',
+				]
+			},
+			options: {
+				responsive: true
+			}
+		};
+
+		window.onscroll = function() {
+			var $sct = window.scrollY;
+			var $fake3 = $(".fake3").offset().top;
+			console.log($sct);
+			console.log(typeof $sct);
+			if($(this).scrollTop() > $(".fake3").offset().top && $(this).scrollTop() < ($fake3+50)){
+				var ctx = document.getElementById('chart-area').getContext('2d');
+				window.myPie = new Chart(ctx, config);
+			}
+		};
+
+
+	</script>
+
+</body>
+</html>
