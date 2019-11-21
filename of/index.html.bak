@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+<link rel="stylesheet" href="slick/slick.css">
+<script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+<script src="slick/slick.min.js"></script>
+<script src="script.js"></script>
+<title>Open Faucet</title>
+</head>
+<body>
+  <ul class="of_slide">
+	<li class="slide1 slides"><div class="dark"></div></li>
+	<li class="slide2 slides"><div class="dark"></div></li>
+	<li class="slide3 slides"><div class="dark"></div></li>
+	<li class="slide4 slides"><div class="dark"></div></li>
+	<li class="slide5 slides"><div class="dark"></div></li>
+	<li class="slide6 slides"><div class="dark"></div></li>
+	<li class="slide7 slides"><div class="dark"></div></li>
+	<li class="slide8 slides"><div class="dark"></div></li>
+	<li class="slide9 slides"><div class="dark"></div></li>
+	<li class="slide10 slides"><div class="dark"></div></li>
+	<li class="slide11 slides"><div class="dark"></div></li>
+	<li class="slide12 slides"><div class="dark"></div></li>
+	<li class="slide13 slides"><div class="dark"></div></li>
+	<li class="slide14 slides"><div class="dark"></div></li>
+	<li class="slide15 slides"><div class="dark"></div></li>
+	<li class="slide16 slides"><div class="dark"></div></li>
+	<li class="slide17 slides"><div class="dark"></div></li>
+	<li class="slide18 slides"><div class="dark"></div></li>
+	<li class="slide19 slides"><div class="dark"></div></li>
+	<li class="slide20 slides"><div class="dark"></div></li>
+	<li class="slide21 slides"><div class="dark"></div></li>
+</ul>
+<style>
+	.of_slide{height: 792px; padding: 0 6%; margin: 0; margin-top:100px;}
+	.slides{height: 792px; background-size:cover; background-repeat:no-repeat; background-position:50% 0%;}
+	.slides>.dark{width: 100%; height: 100%; background:rgba(0,0,0,0.5); transition:background 0.5s;}
+	.slick-center .dark{background:rgba(0,0,0,0);}
+	.slide1{background-image:url("of1.jpg");}
+	.slide2{background-image:url("of2.jpg");}
+	.slide3{background-image:url("of3.jpg");}
+	.slide4{background-image:url("of4.jpg");}
+	.slide5{background-image:url("of5.jpg");}
+	.slide6{background-image:url("of6.jpg");}
+	.slide7{background-image:url("of7.jpg");}
+	.slide8{background-image:url("of8.jpg");}
+	.slide9{background-image:url("of9.jpg");}
+	.slide10{background-image:url("of10.jpg");}
+	.slide11{background-image:url("of11.jpg");}
+	.slide12{background-image:url("of12.jpg");}
+	.slide13{background-image:url("of13.jpg");}
+	.slide14{background-image:url("of14.jpg");}
+	.slide15{background-image:url("of15.jpg");}
+	.slide16{background-image:url("of16.jpg");}
+	.slide17{background-image:url("of17.jpg");}
+	.slide18{background-image:url("of18.jpg");}
+	.slide19{background-image:url("of19.jpg");}
+	.slide20{background-image:url("of20.jpg");}
+	.slide21{background-image:url("of21.jpg");}
+	.slick-list{padding:0 12% ! important;}
+	button{border:none; background:none; }
+	.slick-prev, .slick-next{cursor: pointer;position:absolute; transform:translate(0, -50%); top:50%; font-size:30px; z-index:99; color:white;}
+	.slick-prev{left:9%;}
+	.slick-next{right:9%;}
+</style>
+ </body>
+</html>

@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+<script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+<title>Onyx</title>
+</head>
+<body>
+	<div class="intro">
+		<p class="intro_lg">Industrial design educated</p>
+		<p class="intro_md">Onyx</p>
+		<div class="icon">
+			<div class="ps"></div>
+			<div class="ai"></div>
+			<div class="id"></div>
+			<div class="sw"></div>
+			<div class="key"></div>
+			<div class="icon_txt"><p>3D modeling & rendering</p></div>
+			<div class="icon_txt"><p>Rapid prototype</p></div>
+			<div class="icon_txt"><p>3D print</p></div>
+		</div>	
+		<p class="intro_sm">Onyx is an electric shaver introducing the mix of electronic and natural element. The design was executed with 3D printer as an experiment of new prototyping method after careful 3D modeling through Solidworks.</p>
+	</div>
+	<div class="video_frame">
+		<video autoplay loop muted playsinline>
+			<source src="onyx1.mp4" type="video/mp4"></source>
+			<source src="onyx1.ogv" type="video/ogv">
+			<source src="onyx1.webm" type="video/webm">
+			Your browser does not support the video tag.
+		</video>
+		<video autoplay loop muted playsinline>
+				<source src="onyx2.mp4" type="video/mp4"></source>
+				<source src="onyx2.ogv" type="video/ogv">
+				<source src="onyx2.webm" type="video/webm">
+				Your browser does not support the video tag.
+		</video>
+	</div>				
+	<div class="onyx"></div>
+
+<style>
+	p{margin: 0; padding: 0;}
+	@font-face {
+    font-family: '12LotteMartDreamMedium';
+    src: url('../fonts/12LotteMartDreamMedium.eot');
+    src: url('../fonts/12LotteMartDreamMedium.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/12LotteMartDreamMedium.woff2') format('woff2'),
+        url('../fonts/12LotteMartDreamMedium.woff') format('woff'),
+        url('../fonts/12LotteMartDreamMedium.ttf') format('truetype'),
+        url('../fonts/12LotteMartDreamMedium.svg#12LotteMartDreamMedium') format('svg');
+    font-weight: 500;
+    font-style: normal;
+}
+	.intro{margin-top:7%; padding: 0 10%; font-family: '12LotteMartDreamMedium';}
+	.intro_lg{font-size:46px;}
+	.intro_md{font-size:35px; margin:50px 0 20px;}
+	.intro_sm{font-size:20px; line-height:1.3;}
+	.icon{margin:20px 0 50px; }
+	.icon>div{width: 30px; height: 30px; margin:0 10px;  display:inline-block; vertical-align:top; background-size:contain; background-repeat: no-repeat; background-position:50% 50%;}
+	.icon>.icon_txt{width:auto;}
+	.icon>.icon_txt>p{line-height: 30px;}
+	.ps{background-image:url("../img/ps.png"); margin-left:0 ! important;}
+	.ai{background-image:url("../img/ai.png");}
+	.id{background-image:url("../img/id.png");}
+	.sw{background-image:url("../img/sw.png");}
+	.key{background-image:url("../img/key.png");}
+
+	.intro>p:last-child{margin: 20px 0;}
+
+	.onyx{background:url('onyx.jpg') no-repeat 50% 0%; background-size:cover; width: 1000px; height: 8535px; margin:100px auto 0;}
+
+	.video_frame{width: 1000px; height: 450px; margin:100px auto;}
+	.video_frame>video{width:450px; float: left;}
+	.video_frame>video:first-child{margin-right:100px;}
+</style>
+</body>
+</html>
